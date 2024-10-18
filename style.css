@@ -1,0 +1,15 @@
+body{
+    background-color: #fafad1;
+}
+
+.upper{
+    margin-top: 500px;
+    border-radius: 20px;
+    border: 2px solid rgba(64, 64, 64, 0.402);
+}
+.main{
+    padding: 5%;
+}
+fieldset{
+    border-radius: 3px;
+}

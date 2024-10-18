@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- <link rel="stylesheet" href="bootstrap/bootstrap.min.css"> -->
+  </head>
+  <body>
+    <div style="margin-bottom: 100px;"></div>
+    <div class="upper" style="margin-top: 20px; background-color: white; margin: auto; width: 60%;">
+        <div class="main" style="margin: auto;">
+            <div style="margin: auto; text-align: center;">
+              <h1>Application Form</h1>
+            </div>
+            <p><b>Note:</b> Form is to be completed at least 21 days prior to date</p>
+            <form>
+              <fieldset>
+                <legend>Personal</legend>
+                <p>Name: <input type="text" placeholder="Enter name here" /></p>
+                <p>Address: <input type="text" placeholder="Enter address here" /></p>
+                <p>Email: <input type="email" placeholder="Enter email here" /></p>
+                <p>
+                  Phone Number:
+                  <input type="email" placeholder="Enter 10 digit number" />
+                </p>
+                <p>IQ: <input type="text" placeholder="Enter IQ number" /></p>
+                <p>Gender</p>
+                <div style="margin-left: 10%;">
+                  <label>
+                    <input type="radio" name="gender" value="male" /> Male </label
+                  ><br />
+                  <label>
+                    <input type="radio" name="gender" value="female" /> Female </label
+                  ><br />
+                  <label>
+                    <input type="radio" name="gender" value="other" /> Other
+                  </label>
+                </div>
+                <p>
+                  Date of Proposed Outing:<input type="date" id="date" name="date" />
+                </p>
+              </fieldset>
+              <br />
+              <fieldset>
+                <p>Check All That Apply</p>
+                <div>
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox" />
+                  <label for="myCheckbox">I have tattoos and/or piercings</label
+                  ><br />
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox" />
+                  <label for="myCheckbox"
+                    >I am more than 2 years older than my daughter</label
+                  ><br />
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox" />
+                  <label for="myCheckbox">I own a panel van or V8 ute</label><br />
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox" checked/>
+                  <label for="myCheckbox">I work full-time</label><br />
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox" checked/>
+                  <label for="myCheckbox">My parents are rich</label><br />
+                  <input type="checkbox" id="myCheckbox" name="myCheckbox" checked />
+                  <label for="myCheckbox"
+                    >Is the dat at a well lit public location</label
+                  ><br />
+                </div>
+              </fieldset>
+              <br />
+              <fieldset>
+                <p>
+                  Political persuasion:
+                  <select
+                    name="
+                      select"
+                  >
+                    <option value="">Left Wing</option>
+                    <option value="">Right Wing</option>
+                  </select>
+                  Education Level Completed:
+                  <select
+                    name="
+                      select"
+                  >
+                    <option value="">University</option>
+                    <option value="">"""</option>
+                  </select>
+                </p>
+              </fieldset>
+            </form>
+      <br>
+            <form>
+              <fieldset>
+                  <legend>Essay Section</legend>
+                  <p>In 50 words or more explain why you want to date my daughter</p>
+                  <textarea name="" placeholder="Enter Text Here"></textarea>
+                  <br>
+                  <p>Please upload contact details for 2 references</p>
+                  <textarea placeholder="Enter Text Here"></textarea>
+                  <br>
+                  <br>
+                  <div style="text-align: center; margin: auto;">
+                      <button style="background-color: red; padding: 5px; color: white; border: none;">Send Your Application</button>
+                  </div>
+              </fieldset>
+            </form>
+          </div>
+    </div>
+    <div style="margin-top: 100px;"></div>
+    <!-- <script src="bootstrap/bootstrap.min.js"></script> -->
+  </body>
+</html>
